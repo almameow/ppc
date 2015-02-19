@@ -14,8 +14,20 @@ a{
 	font-weight: bold;
 }
 
+h2{
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 10pt;
+	background-color: #FCC505;
+	padding: 7px;
+	border: 1px solid #000000;
+}
+
 #container{
 	width: 1000px;
+	background: linear-gradient(to right, #000000, #373737, #000000);
+	padding-bottom: 20px;
 }
 
 #header{
@@ -54,7 +66,6 @@ a{
 	}
 
 #middle{
-	background: linear-gradient(to right, #000000, #373737, #000000);
 }
 	.main_pic{
 		border: 3px solid #ffffff;
@@ -70,15 +81,6 @@ a{
 		margin: 15px 35px 0px 0px;
 		width: 533px;
 		height: 261px;
-	}
-
-	#middle h2{
-		text-transform: uppercase;
-		color: #000000;
-		font-weight: bold;
-		font-size: 10pt;
-		background-color: #FCC505;
-		padding: 7px;
 	}
 
 	#middle h3{
@@ -109,5 +111,38 @@ a{
 	}
 
 #bottom{
-	background-color: red;
+	background-color: transparent;
+	margin-left: 35px;
 }
+
+	#bottom div{
+		display: inline-block;
+		vertical-align: top;
+		background-color: #ffffff;
+		width: 224px;
+		margin-right: 8px;
+	}
+
+	#bottom img{
+		width: 222px;
+		border-left: 1px solid black;
+		border-right: 1px solid black;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	#bottom p{
+		display: inline-block;
+		vertical-align: top;
+		color: #000000;
+		font-size: 8pt;
+		padding: 20px;
+	}
+
+	#bottom input{
+		background-color: #FCC505;
+		border: 2px solid black;
+		padding: 5px 15px;
+		border-radius: 5px;
+		margin: 0px 0px 20px 105px;
+	}
