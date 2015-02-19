@@ -5,7 +5,7 @@
 
 body {
 	font-family: Arial, Tahoma, Sans-Serif;
-	font-size: 12pt;
+	font-size: 9pt;
 }
 
 a{
@@ -45,6 +45,7 @@ a{
 		display: inline;
 		border-right: 1px solid gray;
 		padding: 0px 10px;
+		text-transform: uppercase;
 	}
 
 	#header li:first-child{
@@ -53,8 +54,59 @@ a{
 	}
 
 #middle{
-	background-color: green;
+	background: linear-gradient(to right, #000000, #373737, #000000);
 }
+	.main_pic{
+		border: 3px solid #ffffff;
+		margin: 15px 10px 0px 35px;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.about_ppc{
+		display: inline-block;
+		vertical-align: top;
+		background: linear-gradient(to right, #757575, #767676, #373737);
+		margin: 15px 35px 0px 0px;
+		width: 533px;
+		height: 261px;
+	}
+
+	#middle h2{
+		text-transform: uppercase;
+		color: #000000;
+		font-weight: bold;
+		font-size: 10pt;
+		background-color: #FCC505;
+		padding: 7px;
+	}
+
+	#middle h3{
+		color: #ffffff;
+		font-weight: bold;
+		font-size: 9pt;
+		padding: 15px 10px 0px 20px;
+	}
+
+	.about_text{
+		color: #ffffff;
+		padding: 15px 10px 0px 20px;
+	}
+
+	.logo_small{
+		display: inline-block;
+		vertical-align: top;
+		height: 15px;
+		margin: 10px 15px 10px 45px;
+		border-radius: 5px;
+	}
+
+	.small_text{
+		display: inline-block;
+		vertical-align: middle;
+		color: #FCC505;
+		margin-top: 11px;
+	}
 
 #bottom{
 	background-color: red;
